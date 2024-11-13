@@ -8,7 +8,8 @@ from rest_framework.authtoken.models import Token
     
 
 
-# Create your beautiful models here.
+
+# Create your super models here. with some changes
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)
 
