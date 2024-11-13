@@ -6,7 +6,7 @@ from rest_framework.authtoken.models import Token
     
 
 
-# Create your models here.
+# Create your super models here.
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)
 
